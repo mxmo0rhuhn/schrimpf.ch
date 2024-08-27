@@ -1,0 +1,98 @@
+/**
+ * This file is part of the MarkdownBlog project.
+ * It is the style sheet for the content content.
+ *
+ * MarkdownBlog is a lightweight blog software written in php and twitter bootstrap.
+ * Its purpose is to provide a easy way to share your thoughts without any Database
+ * or special setup needed.
+ *
+ * Copyright (C) 2014 Philipp Gamper & Max Schrimpf
+ *
+ * The project is free software: You can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * The file is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with the project. if not, write to the Free Software Foundation, Inc.
+ * 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+ */
+
+.content-head {
+	margin: 0px 2px;
+	border-top: 1px solid #AAAAAA;
+}
+
+.list-item {
+	padding: 16px 16px 32px 16px;
+}
+
+.content img {
+	max-width: 100%;
+}
+
+.minerva {
+	display: none;
+}
+
+.wow {
+	visibility: hidden;
+}
+
+
+.modal-content, .thumbnail, .well {
+    border-radius: 0;
+}
+
+
+.modal-content.alert-info {
+	color: #31708f;
+	background-color: #d9edf7;
+	border-color: #bce8f1;
+}
+.modal-content.alert-success {
+	color: #3c763d;
+	background-color: #dff0d8;
+	border-color: #d6e9c6;
+}
+.modal-content.alert-warning {
+	color: #8a6d3b;
+	background-color: #fcf8e3;
+	border-color: #faebcc;
+}
+.modal-content.alert-danger {
+	color: #a94442;
+	background-color: #f2dede;
+	border-color: #ebccd1;
+}
+
+
+/* TODO for pretty markdown files, => css per filetype
+.content th, .content td {
+    border: 1px solid #999999;
+    padding: 10px;
+}
+*/
+
+
+/* RESPONSIVE CSS
+    --------------------------------------------------
+@media ( max-width : 979px) {
+	.container {
+		padding-left: 4px;
+		padding-right: 4px;
+	}
+
+}
+@media ( max-width : 767px) {
+	.container {
+		padding-left: 0px;
+		padding-10px-right: 0px;
+	}
+}
+*/

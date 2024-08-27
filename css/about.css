@@ -1,0 +1,81 @@
+.about h1 {
+	margin: 16px 0 8px 0;
+	padding: 0;
+}
+
+.about img {
+	margin: 16px;
+}
+
+.block {
+	border-top: 1px solid #E5E5E5;
+	padding: 4px 4px 32px 4px;
+}
+
+.block h4,p {
+	margin: 8px 4px 4px 4px;
+	padding: 8px 0 0 0;
+	text-transform: uppercase;
+}
+
+.block p span {
+	text-transform: none;
+}
+
+.block .desc {
+	font-size: 9pt;
+	font-style: italic;
+	padding: 0 0 0 16px;
+}
+
+.window {
+	font-size: 9pt;
+	text-transform: uppercase;
+}
+
+.skills {
+	text-decoration: none;
+}
+
+.skills p {
+	margin-bottom: 8px;
+}
+
+.skills ul {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+.skills-group {
+	float: left;
+	margin: 0px 32px 0px 0px;
+}
+
+.skills-group span {
+	margin: 4px;
+	font-size: 9pt;
+	font-style: italic;
+	margin-top: 0px;
+	padding: 0px;
+}
+
+.block p b {
+	text-transform: none;
+}
+
+.mono {
+	font-family: monospace;
+	text-transform: none;
+}
+
+/* RESPONSIVE CSS
+ *     -------------------------------------------------- */
+@media ( max-width : 979px) {
+}
+
+@media ( max-width : 767px) {
+	.skills-head {
+		float: none;
+	}
+}
