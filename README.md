@@ -1,0 +1,2 @@
+# schrimpf.ch
+Public website
